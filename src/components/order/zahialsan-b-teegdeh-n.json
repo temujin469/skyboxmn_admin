@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_order_zahialsan_b_teegdeh_n",
+  "info": {
+    "displayName": "Захиалсан бүтээгдэхүүн",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "pId": {
+      "type": "string",
+      "required": true
+    },
+    "cId": {
+      "type": "string",
+      "required": true
+    },
+    "quantity": {
+      "type": "integer",
+      "required": true,
+      "min": 1
+    },
+    "image": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string",
+      "required": true
+    },
+    "property_value": {
+      "type": "string",
+      "required": false
+    },
+    "property_name": {
+      "type": "string",
+      "required": false
+    },
+    "price": {
+      "type": "float"
+    }
+  }
+}

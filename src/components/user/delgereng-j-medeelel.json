@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_user_delgereng_j_medeelel",
+  "info": {
+    "displayName": "Дэлгэрэнгүй мэдээлэл",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "firstname": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "required": true,
+      "maxLength": 8,
+      "minLength": 8
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

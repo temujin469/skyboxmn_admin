@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_hom_page_onczloh_angilal",
+  "info": {
+    "displayName": "Онцлох ангилал",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "category_id": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

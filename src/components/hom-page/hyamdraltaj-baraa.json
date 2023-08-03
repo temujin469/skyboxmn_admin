@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_hom_page_hyamdraltaj_baraa",
+  "info": {
+    "displayName": "Хямдралтай бараа",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "product_id": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

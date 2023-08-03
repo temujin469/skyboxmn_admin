@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Захиалга",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contact_information": {
+      "type": "component",
+      "repeatable": false,
+      "component": "user.delgereng-j-medeelel",
+      "required": true
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "orders"
+    },
+    "products": {
+      "displayName": "Захиалсан бүтээгдэхүүн",
+      "type": "component",
+      "repeatable": true,
+      "component": "order.zahialsan-b-teegdeh-n",
+      "required": true
+    },
+    "is_shipping_included": {
+      "type": "boolean",
+      "required": true
+    },
+    "total_payment": {
+      "type": "float",
+      "required": true
+    },
+    "total_product_quantity": {
+      "type": "integer",
+      "required": true,
+      "min": 1
+    },
+    "payment_status": {
+      "type": "enumeration",
+      "enum": [
+        "ТӨЛӨГДСӨН",
+        "ХҮЛЭЭГДЭЖ БАЙГАА"
+      ],
+      "required": true,
+      "default": "ХҮЛЭЭГДЭЖ БАЙГАА"
+    },
+    "order_status": {
+      "type": "enumeration",
+      "enum": [
+        "Цуцлагдсан",
+        "УБ-т ирсэн",
+        "Дууссан",
+        "Баталгаажсан"
+      ],
+      "required": false
+    },
+    "order_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

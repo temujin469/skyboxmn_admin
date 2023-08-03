@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_menu_category_czes",
+  "info": {
+    "displayName": "Цэс",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "category_id": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "subCategories": {
+      "displayName": "subCategory",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu-category.sub-category"
+    }
+  }
+}

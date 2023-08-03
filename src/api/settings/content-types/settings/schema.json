@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "settingses",
+  "info": {
+    "singularName": "settings",
+    "pluralName": "settingses",
+    "displayName": "Тохиргоо",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "deliver_fee": {
+      "type": "integer"
+    },
+    "CNY_rate": {
+      "type": "float"
+    }
+  }
+}

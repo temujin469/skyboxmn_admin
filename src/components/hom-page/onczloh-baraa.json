@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_hom_page_onczloh_baraa",
+  "info": {
+    "displayName": "Онцлох бараа",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "product_id": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

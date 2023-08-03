@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_hom_page_surtalchilgaany_zurag",
+  "info": {
+    "displayName": "Сурталчилгааны зураг",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

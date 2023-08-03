@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "Menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "required": true
+    },
+    "category_id": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "categories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu-category.czes",
+      "required": true,
+      "max": 12
+    }
+  }
+}

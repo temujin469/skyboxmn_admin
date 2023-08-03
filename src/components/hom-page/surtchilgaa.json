@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_hom_page_surtchilgaa",
+  "info": {
+    "displayName": "Суртчилгаа",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "promotions": {
+      "displayName": "Сурталчилгааны зураг",
+      "type": "component",
+      "repeatable": true,
+      "component": "hom-page.surtalchilgaany-zurag",
+      "max": 3,
+      "required": false,
+      "min": 3
+    }
+  }
+}
