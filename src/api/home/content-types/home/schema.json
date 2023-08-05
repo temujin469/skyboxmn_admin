@@ -23,12 +23,6 @@
       "repeatable": false,
       "component": "hom-page.surtchilgaa"
     },
-    "featured_products": {
-      "displayName": "Онцлох бараа",
-      "type": "component",
-      "repeatable": true,
-      "component": "hom-page.onczloh-baraa"
-    },
     "featured_categories": {
       "displayName": "Онцлох ангилал",
       "type": "component",
@@ -42,6 +36,12 @@
       "type": "component",
       "repeatable": true,
       "component": "hom-page.hyamdraltaj-baraa"
+    },
+    "featured_products": {
+      "displayName": "Онцлох ангиллын бараа",
+      "type": "component",
+      "repeatable": true,
+      "component": "hom-page.onczloh-angillyn-baraa"
     }
   }
 }

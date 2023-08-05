@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_hom_page_onczloh_angillyn_baraa",
+  "info": {
+    "displayName": "Онцлох ангиллын бараа",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 30
+    },
+    "category_id": {
+      "type": "string",
+      "required": true
+    },
+    "product_quantity": {
+      "type": "integer",
+      "required": false,
+      "default": 30,
+      "max": 60,
+      "min": 13
+    }
+  }
+}
