@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_hom_page_product_collections",
+  "info": {
+    "displayName": "productCollections",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "collectionName": {
+      "type": "string",
+      "required": true
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "products": {
+      "displayName": "product_ids",
+      "type": "component",
+      "repeatable": true,
+      "component": "hom-page.product-ids"
+    }
+  }
+}

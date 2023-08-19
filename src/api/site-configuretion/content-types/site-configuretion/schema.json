@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_configuretions",
+  "info": {
+    "singularName": "site-configuretion",
+    "pluralName": "site-configuretions",
+    "displayName": "Сайт тохиргоо",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutUs": {
+      "displayName": "Бидний тухай",
+      "type": "component",
+      "repeatable": false,
+      "component": "website.bidnij-tuhaj",
+      "required": true
+    },
+    "contactUs": {
+      "displayName": "Холбоо барих",
+      "type": "component",
+      "repeatable": false,
+      "component": "website.holboo-barih"
+    },
+    "agreement": {
+      "type": "richtext"
+    },
+    "faqs": {
+      "type": "richtext"
+    },
+    "privacy": {
+      "type": "richtext"
+    },
+    "hemjeeRazmer": {
+      "type": "richtext"
+    }
+  }
+}

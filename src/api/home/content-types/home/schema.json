@@ -31,17 +31,17 @@
       "max": 8,
       "min": 8
     },
-    "discounted_products": {
-      "displayName": "Хямдралтай бараа",
-      "type": "component",
-      "repeatable": true,
-      "component": "hom-page.hyamdraltaj-baraa"
-    },
     "featured_products": {
       "displayName": "Онцлох ангиллын бараа",
       "type": "component",
       "repeatable": true,
       "component": "hom-page.onczloh-angillyn-baraa"
+    },
+    "productCollections": {
+      "displayName": "productCollections",
+      "type": "component",
+      "repeatable": true,
+      "component": "hom-page.product-collections"
     }
   }
 }

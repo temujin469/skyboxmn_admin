@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_hom_page_product_ids",
+  "info": {
+    "displayName": "product_ids",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "product_id": {
+      "type": "string",
+      "required": true,
+      "regex": "[^-\\s]"
+    }
+  }
+}

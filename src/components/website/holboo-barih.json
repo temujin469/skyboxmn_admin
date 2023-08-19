@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_website_holboo_barih",
+  "info": {
+    "displayName": "Холбоо барих",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "location": {
+      "type": "text"
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "workingHours": {
+      "type": "text"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "googleMapSrc": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
