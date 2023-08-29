@@ -8,16 +8,17 @@ export default [
   "strapi::body",
   "strapi::favicon",
   "strapi::public",
-  {
-    name: "strapi::session",
-    config: {
-      httpOnly: true,
-      // maxAge: 1000 * 60 * 60 * 24 * 14, // 14 Day Age
-      // domain:
-      //   process.env.NODE_ENV === "development"
-      //     ? "localhost"
-      //     : process.env.APP_DOMAIN,
-      secure: process.env.NODE_ENV === "production",
-    },
-  },
+  "strapi::session"
+  // {
+  //   name: "strapi::session",
+  //   config: {
+  //     httpOnly: true,
+  //     // maxAge: 1000 * 60 * 60 * 24 * 14, // 14 Day Age
+  //     // domain:
+  //     //   process.env.NODE_ENV === "development"
+  //     //     ? "localhost"
+  //     //     : process.env.APP_DOMAIN,
+  //     secure:true,
+  //   },
+  // },
 ];
